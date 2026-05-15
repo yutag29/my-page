@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>2次方程式の解の公式</title>
+</head>
+<body>
+    <h1>2次方程式の解の公式</h1>
+    <p>\( \LaTeX \)の練習も兼ねて解の公式の導出をしてみました。</p>
+    $$
+    \begin{align}
+    0 &=ax^2 +bx +c\\\\
+    &= a\left(x^2 +\frac{b}{a}x\right)+c\\\\
+    &= a\left\{ \left(x +\frac{b}{2a} \right)^2 -\frac{b^2}{4a^2} \right\}+c\\\\
+    &= a\left( x+\frac{b}{2a} \right)^2 -\frac{b^2 -4ac}{4a}\\\\
+    \end{align}
+    $$
+   
+    $$
+    \begin{align}
+     a\left( x+\frac{b}{2a} \right)^2 &= \frac{b^2 -4ac}{4a}\\\\
+    \left( x+\frac{b}{2a} \right)^2 &= \frac{b^2 -4ac}{4a^2}\\\\
+    x+\frac{b}{2a} &= \pm\frac{\sqrt{b^2 -4ac}}{\sqrt{4a^2}}\\
+    &=\pm\frac{\sqrt{b^2 -4ac}}{2a}
+    \end{align}
+    $$
 
+    $$
+    \begin{align}
+     x &= -\frac{b}{2a}\pm\frac{\sqrt{b^2 -4ac}}{2a}\\
+    &=\frac{-b \pm \sqrt{b^2 -4ac}}{2a}
+    \end{align}
+    $$
+</body>
+</html>
